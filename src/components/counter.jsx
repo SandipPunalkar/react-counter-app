@@ -9,7 +9,7 @@ class Counter extends Component {
         </div>
         <div className="col">
           <button
-            className="btn btn-secondary btn-sm"
+            className="btn btn-secondary btn-sm m-2"
             onClick={() => this.props.onIncrement(this.props.counter)}
           >
             +
